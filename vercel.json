@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://ai-gps-sheet-searcher-143169548601.us-east1.run.app/$1",
+      "headers": {
+        "x-forwarded-host": "https://ai-gps-sheet-searcher-143169548601.us-east1.run.app"
+      }
+    }
+  ]
+}
